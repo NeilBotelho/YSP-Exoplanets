@@ -1,5 +1,6 @@
-# YSP-ExoplanetsThe original dataset from the exoplanet archive is in the exoplanets.csv file
+#Rough Overview of project
 
+* YSP-ExoplanetsThe original dataset from the exoplanet archive is in the exoplanets.csv file
  
 * Initially I removed all columns that contained the limit or error of a measurement eg st_radvlim(Radial Velocity Limit Flag)
 I then removed all columns that had more than 50% missing data and was left with about 80 columns.
