@@ -1,5 +1,7 @@
 # Rough Overview of project
 
+## Classification of exoplanets into habitable or not
+
 * YSP-ExoplanetsThe original dataset from the exoplanet archive is in the exoplanets.csv file
  
 * Initially I removed all columns that contained the limit or error of a measurement eg st_radvlim(Radial Velocity Limit Flag)
@@ -20,3 +22,20 @@ The resulting dataset is saved to selectedFeatures.cs
 3. the top 25 highest scoring features are most important overall.
 
 The resulting 25 most overall important features are stored in the featureImportance file
+
+* I found that the accuracy of a model varies wildly, depending on which of the 13 habitable exoplanets are put in the training set and which are put in the testing set. 
+
+__Hence__
+I have concluded that at this moment in time, it is not feasible to build a model that can predict whether a planet is habitable or not, due to a lack of examples of habitable exoplanets.
+
+## Finding Most Important Features
+The code for this has not been updated here yet but a rough version can be found on the "unbiased" branch.
+
+Here my aim was finding which features are most important in predicting whether an exoplanet is habitable. 
+
+* I wanted to eliminate bias as much as possible, so I used all features which have less than 40% data missing. I then discarded all categrical features with more than 10 unique values. 
+
+* I randomly selected a random number of these features, and fit a model on the resulting data. I repeated this random selection and training for 20000 sets and stores the results( the features and the model accuracy score) in an excel file.
+
+* Using the data in this excel file I added up the accuracy scores of all models that used a particular feature and divided it by the frequency of that feature. I used this as an “importance score” to determine which features were most important.
+
