@@ -15,6 +15,6 @@ df<-df[, vapply(df, f, logical(1)), drop = F]
 #Get only numeric columns
 numericCols<-dplyr::select_if(df, is.numeric)
 
-imputedCols = mice(numericCols,method='cart',maxit = 5,seed=40)
+imputedCols = mice(numericCols,method='cart',maxit = 10,seed=40)
 completedData<-complete(imputedCols,1)
 write.csv(completedData,'../ImputedNumericCols.csv')
