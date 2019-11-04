@@ -1,7 +1,0 @@
-library(mice)
-library(dplyr)
-data<-read.csv("../numericalCols.csv")
-imputed = mice(data,method='rf',maxit=5)
-summary(imputed)
-completedData<-complete(imputed,1)
-write.csv(completedData,'../ImputedNumericCols.csv')
