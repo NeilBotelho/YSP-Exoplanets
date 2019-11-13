@@ -4,11 +4,11 @@ from sklearn.impute import SimpleImputer
 from sklearn.preprocessing import StandardScaler
 
 # import the data
-hec_data = pd.read_csv("../phl_exoplanet_catalog.csv")  
+hec_data = pd.read_csv("../phl_exoplanet_catalog.csv")
 exos=pd.read_csv('../exoplanets.csv')
 
 # remove unconfirmed planets
-hec_data = hec_data[hec_data.P_STATUS == 3].drop('P_STATUS', axis="columns")    # P_STATUS - planet status (confirmed = 3)  
+hec_data = hec_data[hec_data.P_STATUS == 3].drop('P_STATUS', axis="columns")    # P_STATUS - planet status (confirmed = 3)
 
 # leave only the habitable planets
 hec_data = hec_data[hec_data.P_HABITABLE != 0]  # P_HABITABLE - planet is potentially habitable index  (1 = conservative, 2 = optimistic)
@@ -68,21 +68,23 @@ nonHabitable[nonHabitable._get_numeric_data().columns]=imputer.fit_transform(non
 
 
 # Join the two datasets
-Exos=pd.concat([habitable,nonHabitable])
+tempExos=pd.concat([habitable,nonHabitable])
 
-for n in Exos.columns:
+for n in tempExos.columns:
     if(n in exos.columns):
-        exos[n]=Exos[n]
+        exos[n]=tempExos[n]
     else:
         print(n)
 #Scale the data so that it has unit variance
 NumericCols=[]
 for n in exos._get_numeric_data().columns:
+	#Dont  scale binary columns(ie those that only have 1 or 0)
     if not (list(exos[n].unique())==[0,1]):
         NumericCols.append(n)
-
-
 exos[NumericCols]=StandardScaler().fit_transform(exos[NumericCols])
-exos=pd.get_dummies(exos)
-exos.to_csv("../PreprocessedDataset.csv")
+
+#One hot encode categorical columns
+preprocessed=pd.get_dummies(exos)
+
+preprocessed.to_csv("../PreprocessedDataset.csv")
 
