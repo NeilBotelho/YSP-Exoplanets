@@ -1,356 +1,356 @@
-,feature,description
-0,pl_hostname,Host Name
-1,pl_letter,Planet Letter
-2,pl_name,Planet Name
-3,pl_discmethod,Discovery Method
-4,pl_controvflag,Controversial Flag
-5,pl_pnum,Number of Planets in System
-6,pl_orbper,Orbital Period [days]
-7,pl_orbpererr1,Orbital Period Upper Unc. [days]
-8,pl_orbpererr2,Orbital Period Lower Unc. [days]
-9,pl_orbperlim,Orbital Period Limit Flag
-10,pl_orbsmax,Orbit Semi-Major Axis [AU])
-11,pl_orbsmaxerr1,Orbit Semi-Major Axis Upper Unc. [AU]
-12,pl_orbsmaxerr2,Orbit Semi-Major Axis Lower Unc. [AU]
-13,pl_orbsmaxlim,Orbit Semi-Major Axis Limit Flag
-14,pl_orbeccen,Eccentricity
-15,pl_orbeccenerr1,Eccentricity Upper Unc.
-16,pl_orbeccenerr2,Eccentricity Lower Unc.
-17,pl_orbeccenlim,Eccentricity Limit Flag
-18,pl_orbincl,Inclination [deg]
-19,pl_orbinclerr1,Inclination Upper Unc. [deg]
-20,pl_orbinclerr2,Inclination Lower Unc. [deg]
-21,pl_orbincllim,Inclination Limit Flag
-22,pl_bmassj,Planet Mass or M*sin(i) [Jupiter mass]
-23,pl_bmassjerr1,Planet Mass or M*sin(i) Upper Unc. [Jupiter mass]
-24,pl_bmassjerr2,Planet Mass or M*sin(i) Lower Unc. [Jupiter mass]
-25,pl_bmassjlim,Planet Mass or M*sin(i) Limit Flag
-26,pl_bmassprov,Planet Mass or M*sin(i) Provenance
-27,pl_radj,Planet Radius [Jupiter radii]
-28,pl_radjerr1,Planet Radius Upper Unc. [Jupiter radii]
-29,pl_radjerr2,Planet Radius Lower Unc. [Jupiter radii]
-30,pl_radjlim,Planet Radius Limit Flag
-31,pl_dens,Planet Density [g/cm**3]
-32,pl_denserr1,Planet Density Upper Unc. [g/cm**3]
-33,pl_denserr2,Planet Density Lower Unc. [g/cm**3]
-34,pl_denslim,Planet Density Limit Flag
-35,pl_ttvflag,TTV Flag
-36,pl_kepflag,Kepler Field Flag
-37,pl_k2flag,K2 Mission Flag
-38,pl_nnotes,Number of Notes
-39,ra_str,RA [sexagesimal]
-40,ra,RA [decimal degrees]
-41,dec_str,Dec [sexagesimal]
-42,dec,Dec [decimal degrees]
-43,st_dist,Distance [pc]
-44,st_disterr1,Distance Upper Unc. [pc]
-45,st_disterr2,Distance Lower Unc. [pc]
-46,st_distlim,Distance Limit Flag
-47,st_optmag,Optical Magnitude [mag]
-48,st_optmagerr,Optical Magnitude Unc. [mag]
-49,st_optmaglim,Optical Magnitude Limit Flag
-50,st_optband,Optical Magnitude Band
-51,gaia_gmag,G-band (Gaia) [mag]
-52,gaia_gmagerr,G-band (Gaia) Unc. [mag]
-53,gaia_gmaglim,G-band (Gaia) Limit Flag
-54,st_teff,Effective Temperature [K]
-55,st_tefferr1,Effective Temperature Upper Unc. [K]
-56,st_tefferr2,Effective Temperature Lower Unc. [K]
-57,st_tefflim,Effective Temperature Limit Flag
-58,st_mass,Stellar Mass [Solar mass]
-59,st_masserr1,Stellar Mass Upper Unc. [Solar mass]
-60,st_masserr2,Stellar Mass Lower Unc. [Solar mass]
-61,st_masslim,Stellar Mass Limit Flag
-62,st_rad,Stellar Radius [Solar radii]
-63,st_raderr1,Stellar Radius Upper Unc. [Solar radii]
-64,st_raderr2,Stellar Radius Lower Unc. [Solar radii]
-65,st_radlim,Stellar Radius Limit Flag
-66,rowupdate,Date of Last Update
-67,pl_tranflag,Planet Transit Flag
-68,pl_rvflag,Planet RV Flag
-69,pl_imgflag,Planet Imaging Flag
-70,pl_astflag,Planet Astrometry Flag
-71,pl_omflag,Planet Orbital Modulation Flag
-72,pl_cbflag,Planet Circumbinary Flag
-73,pl_angsep,Calculated Angular Separation [mas]
-74,pl_angseperr1,Calculated Angular Separation Upper Unc. [mas]
-75,pl_angseperr2,Calculated Angular Separation Lower Unc. [mas]
-76,pl_orbtper,Time of Periastron [days]
-77,pl_orbtpererr1,Time of Periastron Upper Unc. [days]
-78,pl_orbtpererr2,Time of Periastron Lower Unc. [days]
-79,pl_orbtperlim,Time of Periastron Limit Flag
-80,pl_orblper,Long. of Periastron [deg]
-81,pl_orblpererr1,Long. of Periastron Upper Unc. [deg]
-82,pl_orblpererr2,Long. of Periastron Lower Unc. [deg]
-83,pl_orblperlim,Long. of Periastron Limit Flag
-84,pl_rvamp,Radial Velocity Amplitude [m/s]
-85,pl_rvamperr1,Radial Velocity Amplitude Upper Unc. [m/s]
-86,pl_rvamperr2,Radial Velocity Amplitude Lower Unc. [m/s]
-87,pl_rvamplim,Radial Velocity Amplitude Limit Flag
-88,pl_eqt,Equilibrium Temperature [K]
-89,pl_eqterr1,Equilibrium Temperature Upper Unc. [K]
-90,pl_eqterr2,Equilibrium Temperature Lower Unc. [K]
-91,pl_eqtlim,Equilibrium Temperature Limit Flag
-92,pl_insol,Insolation Flux [Earth flux]
-93,pl_insolerr1,Insolation Flux Upper Unc. [Earth flux]
-94,pl_insolerr2,Insolation Flux Lower Unc. [Earth flux]
-95,pl_insollim,Insolation Flux Limit Flag
-96,pl_massj,Planet Mass [Jupiter mass]
-97,pl_massjerr1,Planet Mass Upper Unc. [Jupiter mass]
-98,pl_massjerr2,Planet Mass Lower Unc. [Jupiter mass]
-99,pl_massjlim,Planet Mass Limit Flag
-100,pl_msinij,Planet M*sin(i) [Jupiter mass]
-101,pl_msinijerr1,Planet M*sin(i) Upper Unc. [Jupiter mass]
-102,pl_msinijerr2,Planet M*sin(i) Lower Unc. [Jupiter mass]
-103,pl_msinijlim,Planet M*sin(i) Limit Flag
-104,pl_masse,Planet Mass [Earth mass]
-105,pl_masseerr1,Planet Mass Upper Unc. [Earth mass]
-106,pl_masseerr2,Planet Mass Lower Unc. [Earth mass]
-107,pl_masselim,Planet Mass Limit Flag
-108,pl_msinie,Planet M*sin(i) [Earth mass]
-109,pl_msinieerr1,Planet M*sin(i) Upper Unc. [Earth mass]
-110,pl_msinieerr2,Planet M*sin(i) Lower Unc. [Earth mass]
-111,pl_msinielim,Planet M*sin(i) Limit Flag
-112,pl_bmasse,Planet Mass or M*sin(i) [Earth mass]
-113,pl_bmasseerr1,Planet Mass or M*sin(i) Upper Unc. [Earth mass]
-114,pl_bmasseerr2,Planet Mass or M*sin(i) Lower Unc. [Earth mass]
-115,pl_bmasselim,Planet Mass or M*sin(i) Limit Flag
-116,pl_rade,Planet Radius [Earth radii]
-117,pl_radeerr1,Planet Radius Upper Unc. [Earth radii]
-118,pl_radeerr2,Planet Radius Lower Unc. [Earth radii]
-119,pl_radelim,Planet Radius Limit Flag
-120,pl_rads,Planet Radius [Solar radii]
-121,pl_radserr1,Planet Radius Upper Unc. [Solar radii]
-122,pl_radserr2,Planet Radius Lower Unc. [Solar radii]
-123,pl_radslim,Planet Radius Limit Flag
-124,pl_trandep,Transit Depth [percent]
-125,pl_trandeperr1,Transit Depth Upper Unc. [percent]
-126,pl_trandeperr2,Transit Depth Lower Unc. [percent]
-127,pl_trandeplim,Transit Depth Limit Flag
-128,pl_trandur,Transit Duration [days]
-129,pl_trandurerr1,Transit Duration Upper Unc. [days]
-130,pl_trandurerr2,Transit Duration Lower Unc. [days]
-131,pl_trandurlim,Transit Duration Limit Flag
-132,pl_tranmid,Transit Midpoint [days]
-133,pl_tranmiderr1,Transit Midpoint Upper Unc. [days]
-134,pl_tranmiderr2,Transit Midpoint Lower Unc. [days]
-135,pl_tranmidlim,Transit Midpoint Limit Flag
-136,pl_tsystemref,Time System Reference
-137,pl_imppar,Impact Parameter
-138,pl_impparerr1,Impact Parameter Upper Unc.
-139,pl_impparerr2,Impact Parameter Lower Unc.
-140,pl_impparlim,Impact Parameter Limit Flag
-141,pl_occdep,Occultation Depth [percentage]
-142,pl_occdeperr1,Occultation Depth Upper Unc. [percentage]
-143,pl_occdeperr2,Occultation Depth Lower Unc. [percentage]
-144,pl_occdeplim,Occultation Depth Limit Flag
-145,pl_ratdor,Ratio of Distance to Stellar Radius
-146,pl_ratdorerr1,Ratio of Distance to Stellar Radius Upper Unc.
-147,pl_ratdorerr2,Ratio of Distance to Stellar Radius Lower Unc.
-148,pl_ratdorlim,Ratio of Distance to Stellar Radius Limit Flag
-149,pl_ratror,Ratio of Planet to Stellar Radius
-150,pl_ratrorerr1,Ratio of Planet to Stellar Radius Upper Unc.
-151,pl_ratrorerr2,Ratio of Planet to Stellar Radius Lower Unc.
-152,pl_ratrorlim,Ratio of Planet to Stellar Radius Limit Flag
-153,pl_def_reflink,Default Reference
-154,pl_disc,Year of Discovery
-155,pl_disc_reflink,Discovery Reference
-156,pl_locale,Discovery Locale
-157,pl_facility,Discovery Facility
-158,pl_telescope,Discovery Telescope
-159,pl_instrument,Discovery Instrument
-160,pl_status,Status
-161,pl_mnum,Number of Moons in System
-162,pl_st_npar,Number of Stellar and Planet Parameters
-163,pl_st_nref,Number of Stellar and Planet References
-164,pl_pelink,Link to Exoplanet Encyclopaedia
-165,pl_edelink,Link to Exoplanet Data Explorer
-166,pl_publ_date,Publication Date
-167,hd_name,HD Name
-168,hip_name,HIP Name
-169,st_rah,RA [hrs]
-170,st_glon,Galactic Longitude [deg]
-171,st_glat,Galactic Latitude [deg]
-172,st_elon,Ecliptic Longitude [deg]
-173,st_elat,Ecliptic Latitude [deg]
-174,st_plx,Parallax [mas]
-175,st_plxerr1,Parallax Upper Unc. [mas]
-176,st_plxerr2,Parallax Lower Unc. [mas]
-177,st_plxlim,Parallax Limit Flag
-178,gaia_plx,Gaia Parallax [mas]
-179,gaia_plxerr1,Gaia Parallax Upper Unc. [mas]
-180,gaia_plxerr2,Gaia Parallax Lower Unc. [mas]
-181,gaia_plxlim,Gaia Parallax Limit Flag
-182,gaia_dist,Gaia Distance [pc]
-183,gaia_disterr1,Gaia Distance Upper Unc. [pc]
-184,gaia_disterr2,Gaia Distance Lower Unc. [pc]
-185,gaia_distlim,Gaia Distance Limit Flag
-186,st_pmra,Proper Motion (RA) [mas/yr]
-187,st_pmraerr,Proper Motion (RA) Unc. [mas/yr]
-188,st_pmralim,Proper Motion (RA) Limit Flag
-189,st_pmdec,Proper Motion (Dec) [mas/yr]
-190,st_pmdecerr,Proper Motion (Dec) Unc. [mas/yr]
-191,st_pmdeclim,Proper Motion (Dec) Limit Flag
-192,st_pm,Total Proper Motion [mas/yr]
-193,st_pmerr,Total Proper Motion Unc. [mas/yr]
-194,st_pmlim,Total Proper Motion Limit Flag
-195,gaia_pmra,Gaia Proper Motion (RA) [mas/yr]
-196,gaia_pmraerr,Gaia Proper Motion (RA) Unc. [mas/yr]
-197,gaia_pmralim,Gaia Proper Motion (RA) Limit Flag
-198,gaia_pmdec,Gaia Proper Motion (Dec) [mas/yr]
-199,gaia_pmdecerr,Gaia Proper Motion (Dec) Unc. [mas/yr]
-200,gaia_pmdeclim,Gaia Proper Motion (Dec) Limit Flag
-201,gaia_pm,Gaia Total Proper Motion [mas/yr]
-202,gaia_pmerr,Gaia Total Proper Motion Unc. [mas/yr]
-203,gaia_pmlim,Gaia Total Proper Motion Limit Flag
-204,st_radv,Radial Velocity [km/s]
-205,st_radverr1,Radial Velocity Upper Unc. [km/s]
-206,st_radverr2,Radial Velocity Lower Unc. [km/s]
-207,st_radvlim,Radial Velocity Limit Flag
-208,st_sp,Spectral Type
-209,st_spstr,Spectral Type
-210,st_sperr,Spectral Type Unc.
-211,st_splim,Spectral Type Limit Flag
-212,st_logg,Stellar Surface Gravity [log10(cm/s**2)]
-213,st_loggerr1,Stellar Surface Gravity Upper Unc. [log10(cm/s**2)]
-214,st_loggerr2,Stellar Surface Gravity Lower Unc. [log10(cm/s**2)]
-215,st_logglim,Stellar Surface Gravity Limit Flag
-216,st_lum,Stellar Luminosity [log(Solar)]
-217,st_lumerr1,Stellar Luminosity Upper Unc. [log(Solar)]
-218,st_lumerr2,Stellar Luminosity Lower Unc. [log(Solar)]
-219,st_lumlim,Stellar Luminosity Limit Flag
-220,st_dens,Stellar Density [g/cm**3]
-221,st_denserr1,Stellar Density Upper Unc. [g/cm**3]
-222,st_denserr2,Stellar Density Lower Unc. [g/cm**3]
-223,st_denslim,Stellar Density Limit Flag
-224,st_metfe,Stellar Metallicity [dex]
-225,st_metfeerr1,Stellar Metallicity Upper Unc. [dex]
-226,st_metfeerr2,Stellar Metallicity Lower Unc. [dex]
-227,st_metfelim,Stellar Metallicity Limit Flag
-228,st_metratio,Metallicity Ratio
-229,st_age,Stellar Age [Gyr]
-230,st_ageerr1,Stellar Age Upper Unc. [Gyr]
-231,st_ageerr2,Stellar Age Lower Unc. [Gyr]
-232,st_agelim,Stellar Age Limit Flag
-233,st_vsini,Rot. Velocity V*sin(i) [km/s]
-234,st_vsinierr1,Rot. Velocity V*sin(i) Upper Unc. [km/s]
-235,st_vsinierr2,Rot. Velocity V*sin(i) Lower Unc. [km/s]
-236,st_vsinilim,Rot. Velocity V*sin(i) Limit Flag
-237,st_acts,Stellar Activity S-index
-238,st_actserr,Stellar Activity S-index Unc.
-239,st_actslim,Stellar Activity S-index Limit Flag
-240,st_actr,Stellar Activity log(R'HK)
-241,st_actrerr,Stellar Activity log(R'HK) Unc.
-242,st_actrlim,Stellar Activity log(R'HK) Limit Flag
-243,st_actlx,X-ray Activity log(L<sub>x</sub>)
-244,st_actlxerr,X-ray Activity log(L<sub>x</sub>) Unc.
-245,st_actlxlim,X-ray Activity log(L<sub>x</sub>) Limit Flag
-246,swasp_id,SWASP Identifier
-247,st_nts,Number of Time Series
-248,st_nplc,Number of Planet Transit Light Curves
-249,st_nglc,Number of General Light Curves
-250,st_nrvc,Number of Radial Velocity Time Series
-251,st_naxa,Number of Amateur Light Curves
-252,st_nimg,Number of Images
-253,st_nspec,Number of Spectra
-254,st_uj,U-band (Johnson) [mag]
-255,st_ujerr,U-band (Johnson) Unc. [mag]
-256,st_ujlim,U-band (Johnson) Limit Flag
-257,st_vj,V-band (Johnson) [mag]
-258,st_vjerr,V-band (Johnson) Unc. [mag]
-259,st_vjlim,V-band (Johnson) Limit Flag
-260,st_bj,B-band (Johnson) [mag]
-261,st_bjerr,B-band (Johnson) Unc. [mag]
-262,st_bjlim,B-band (Johnson) Limit Flag
-263,st_rc,R-band (Cousins) [mag]
-264,st_rcerr,R-band (Cousins) Unc. [mag]
-265,st_rclim,R-band (Cousins) Limit Flag
-266,st_ic,I-band (Cousins) [mag]
-267,st_icerr,I-band (Cousins) Unc. [mag]
-268,st_iclim,I-band (Cousins) Limit Flag
-269,st_j,J-band (2MASS) [mag]
-270,st_jerr,J-band (2MASS) Unc. [mag]
-271,st_jlim,J-band (2MASS) Limit Flag
-272,st_h,H-band (2MASS) [mag]
-273,st_herr,H-band (2MASS) Unc. [mag]
-274,st_hlim,H-band (2MASS) Limit Flag
-275,st_k,Ks-band (2MASS) [mag]
-276,st_kerr,Ks-band (2MASS) Unc. [mag]
-277,st_klim,Ks-band (2MASS) Limit Flag
-278,st_wise1,WISE 3.4um [mag]
-279,st_wise1err,WISE 3.4um Unc. [mag]
-280,st_wise1lim,WISE 3.4um Limit Flag
-281,st_wise2,WISE 4.6um [mag]
-282,st_wise2err,WISE 4.6um Unc. [mag]
-283,st_wise2lim,WISE 4.6um Limit Flag
-284,st_wise3,WISE 12.um [mag]
-285,st_wise3err,WISE 12.um Unc. [mag]
-286,st_wise3lim,WISE 12.um Limit Flag
-287,st_wise4,WISE 22.um [mag]
-288,st_wise4err,WISE 22.um Unc. [mag]
-289,st_wise4lim,WISE 22.um Limit Flag
-290,st_irac1,IRAC 3.6um [mag]
-291,st_irac1err,IRAC 3.6um Unc. [mag]
-292,st_irac1lim,IRAC 3.6um Limit Flag
-293,st_irac2,IRAC 4.5um [mag]
-294,st_irac2err,IRAC 4.5um Unc. [mag]
-295,st_irac2lim,IRAC 4.5um Limit Flag
-296,st_irac3,IRAC 5.8um [mag]
-297,st_irac3err,IRAC 5.8um Unc. [mag]
-298,st_irac3lim,IRAC 5.8um Limit Flag
-299,st_irac4,IRAC 8.0um [mag]
-300,st_irac4err,IRAC 8.0um Unc. [mag]
-301,st_irac4lim,IRAC 8.0um Limit Flag
-302,st_mips1,MIPS 24um [mag]
-303,st_mips1err,MIPS 24um Unc. [mag]
-304,st_mips1lim,MIPS 24um Limit Flag
-305,st_mips2,MIPS 70um [mag]
-306,st_mips2err,MIPS 70um Unc. [mag]
-307,st_mips2lim,MIPS 70um Limit Flag
-308,st_mips3,MIPS 160um [mag]
-309,st_mips3err,MIPS 160um Unc. [mag]
-310,st_mips3lim,MIPS 160um Limit Flag
-311,st_iras1,IRAS 12um Flux [Jy]
-312,st_iras1err,IRAS 12um Flux Unc. [Jy]
-313,st_iras1lim,IRAS 12um Flux Limit Flag
-314,st_iras2,IRAS 25um Flux [Jy]
-315,st_iras2err,IRAS 25um Flux Unc. [Jy]
-316,st_iras2lim,IRAS 25um Flux Limit Flag
-317,st_iras3,IRAS 60um Flux [Jy]
-318,st_iras3err,IRAS 60um Flux Unc. [Jy]
-319,st_iras3lim,IRAS 60um Flux Limit Flag
-320,st_iras4,IRAS 100um Flux [Jy]
-321,st_iras4err,IRAS 100um Flux Unc. [Jy]
-322,st_iras4lim,IRAS 100um Flux Limit Flag
-323,st_photn,Number of Photometry Measurements
-324,st_umbj,U-B (Johnson) [mag]
-325,st_umbjerr,U-B (Johnson) Unc. [mag]
-326,st_umbjlim,U-B (Johnson) Limit Flag
-327,st_bmvj,B-V (Johnson) [mag]
-328,st_bmvjerr,B-V (Johnson) Unc. [mag]
-329,st_bmvjlim,B-V (Johnson) Limit Flag
-330,st_vjmic,V-I (Johnson-Cousins) [mag]
-331,st_vjmicerr,V-I (Johnson-Cousins) Unc. [mag]
-332,st_vjmiclim,V-I (Johnson-Cousins) Limit Flag
-333,st_vjmrc,V-R (Johnson-Cousins) [mag]
-334,st_vjmrcerr,V-R (Johnson-Cousins) Unc. [mag]
-335,st_vjmrclim,V-R (Johnson-Cousins) Limit Flag
-336,st_jmh2,J-H (2MASS) [mag]
-337,st_jmh2err,J-H (2MASS) Unc. [mag]
-338,st_jmh2lim,J-H (2MASS) Limit Flag
-339,st_hmk2,H-Ks (2MASS) [mag]
-340,st_hmk2err,H-Ks (2MASS) Unc. [mag]
-341,st_hmk2lim,H-Ks (2MASS) Limit Flag
-342,st_jmk2,J-Ks (2MASS) [mag]
-343,st_jmk2err,J-Ks (2MASS) Unc. [mag]
-344,st_jmk2lim,J-Ks (2MASS) Limit Flag
-345,st_bmy,b-y (Stromgren) [mag]
-346,st_bmyerr,b-y (Stromgren) Unc. [mag]
-347,st_bmylim,b-y (Stromgren) Limit Flag
-348,st_m1,m1 (Stromgren) [mag]
-349,st_m1err,m1 (Stromgren) Unc. [mag]
-350,st_m1lim,m1 (Stromgren) Limit Flag
-351,st_c1,c1 (Stromgren) [mag]
-352,st_c1err,c1 (Stromgren) Unc. [mag]
-353,st_c1lim,c1 (Stromgren) Limit Flag
-354,st_colorn,Number of Color Measurements
+feature,description
+pl_hostname,Host Name
+pl_letter,Planet Letter
+pl_name,Planet Name
+pl_discmethod,Discovery Method
+pl_controvflag,Controversial Flag
+pl_pnum,Number of Planets in System
+pl_orbper,Orbital Period [days]
+pl_orbpererr1,Orbital Period Upper Unc. [days]
+pl_orbpererr2,Orbital Period Lower Unc. [days]
+pl_orbperlim,Orbital Period Limit Flag
+pl_orbsmax,Orbit Semi-Major Axis [AU])
+pl_orbsmaxerr1,Orbit Semi-Major Axis Upper Unc. [AU]
+pl_orbsmaxerr2,Orbit Semi-Major Axis Lower Unc. [AU]
+pl_orbsmaxlim,Orbit Semi-Major Axis Limit Flag
+pl_orbeccen,Eccentricity
+pl_orbeccenerr1,Eccentricity Upper Unc.
+pl_orbeccenerr2,Eccentricity Lower Unc.
+pl_orbeccenlim,Eccentricity Limit Flag
+pl_orbincl,Inclination [deg]
+pl_orbinclerr1,Inclination Upper Unc. [deg]
+pl_orbinclerr2,Inclination Lower Unc. [deg]
+pl_orbincllim,Inclination Limit Flag
+pl_bmassj,Planet Mass or M*sin(i) [Jupiter mass]
+pl_bmassjerr1,Planet Mass or M*sin(i) Upper Unc. [Jupiter mass]
+pl_bmassjerr2,Planet Mass or M*sin(i) Lower Unc. [Jupiter mass]
+pl_bmassjlim,Planet Mass or M*sin(i) Limit Flag
+pl_bmassprov,Planet Mass or M*sin(i) Provenance
+pl_radj,Planet Radius [Jupiter radii]
+pl_radjerr1,Planet Radius Upper Unc. [Jupiter radii]
+pl_radjerr2,Planet Radius Lower Unc. [Jupiter radii]
+pl_radjlim,Planet Radius Limit Flag
+pl_dens,Planet Density [g/cm**3]
+pl_denserr1,Planet Density Upper Unc. [g/cm**3]
+pl_denserr2,Planet Density Lower Unc. [g/cm**3]
+pl_denslim,Planet Density Limit Flag
+pl_ttvflag,TTV Flag
+pl_kepflag,Kepler Field Flag
+pl_k2flag,K2 Mission Flag
+pl_nnotes,Number of Notes
+ra_str,RA [sexagesimal]
+ra,RA [decimal degrees]
+dec_str,Dec [sexagesimal]
+dec,Dec [decimal degrees]
+st_dist,Distance [pc]
+st_disterr1,Distance Upper Unc. [pc]
+st_disterr2,Distance Lower Unc. [pc]
+st_distlim,Distance Limit Flag
+st_optmag,Optical Magnitude [mag]
+st_optmagerr,Optical Magnitude Unc. [mag]
+st_optmaglim,Optical Magnitude Limit Flag
+st_optband,Optical Magnitude Band
+gaia_gmag,G-band (Gaia) [mag]
+gaia_gmagerr,G-band (Gaia) Unc. [mag]
+gaia_gmaglim,G-band (Gaia) Limit Flag
+st_teff,Effective Temperature [K]
+st_tefferr1,Effective Temperature Upper Unc. [K]
+st_tefferr2,Effective Temperature Lower Unc. [K]
+st_tefflim,Effective Temperature Limit Flag
+st_mass,Stellar Mass [Solar mass]
+st_masserr1,Stellar Mass Upper Unc. [Solar mass]
+st_masserr2,Stellar Mass Lower Unc. [Solar mass]
+st_masslim,Stellar Mass Limit Flag
+st_rad,Stellar Radius [Solar radii]
+st_raderr1,Stellar Radius Upper Unc. [Solar radii]
+st_raderr2,Stellar Radius Lower Unc. [Solar radii]
+st_radlim,Stellar Radius Limit Flag
+rowupdate,Date of Last Update
+pl_tranflag,Planet Transit Flag
+pl_rvflag,Planet RV Flag
+pl_imgflag,Planet Imaging Flag
+pl_astflag,Planet Astrometry Flag
+pl_omflag,Planet Orbital Modulation Flag
+pl_cbflag,Planet Circumbinary Flag
+pl_angsep,Calculated Angular Separation [mas]
+pl_angseperr1,Calculated Angular Separation Upper Unc. [mas]
+pl_angseperr2,Calculated Angular Separation Lower Unc. [mas]
+pl_orbtper,Time of Periastron [days]
+pl_orbtpererr1,Time of Periastron Upper Unc. [days]
+pl_orbtpererr2,Time of Periastron Lower Unc. [days]
+pl_orbtperlim,Time of Periastron Limit Flag
+pl_orblper,Long. of Periastron [deg]
+pl_orblpererr1,Long. of Periastron Upper Unc. [deg]
+pl_orblpererr2,Long. of Periastron Lower Unc. [deg]
+pl_orblperlim,Long. of Periastron Limit Flag
+pl_rvamp,Radial Velocity Amplitude [m/s]
+pl_rvamperr1,Radial Velocity Amplitude Upper Unc. [m/s]
+pl_rvamperr2,Radial Velocity Amplitude Lower Unc. [m/s]
+pl_rvamplim,Radial Velocity Amplitude Limit Flag
+pl_eqt,Equilibrium Temperature [K]
+pl_eqterr1,Equilibrium Temperature Upper Unc. [K]
+pl_eqterr2,Equilibrium Temperature Lower Unc. [K]
+pl_eqtlim,Equilibrium Temperature Limit Flag
+pl_insol,Insolation Flux [Earth flux]
+pl_insolerr1,Insolation Flux Upper Unc. [Earth flux]
+pl_insolerr2,Insolation Flux Lower Unc. [Earth flux]
+pl_insollim,Insolation Flux Limit Flag
+pl_massj,Planet Mass [Jupiter mass]
+pl_massjerr1,Planet Mass Upper Unc. [Jupiter mass]
+pl_massjerr2,Planet Mass Lower Unc. [Jupiter mass]
+pl_massjlim,Planet Mass Limit Flag
+pl_msinij,Planet M*sin(i) [Jupiter mass]
+pl_msinijerr1,Planet M*sin(i) Upper Unc. [Jupiter mass]
+pl_msinijerr2,Planet M*sin(i) Lower Unc. [Jupiter mass]
+pl_msinijlim,Planet M*sin(i) Limit Flag
+pl_masse,Planet Mass [Earth mass]
+pl_masseerr1,Planet Mass Upper Unc. [Earth mass]
+pl_masseerr2,Planet Mass Lower Unc. [Earth mass]
+pl_masselim,Planet Mass Limit Flag
+pl_msinie,Planet M*sin(i) [Earth mass]
+pl_msinieerr1,Planet M*sin(i) Upper Unc. [Earth mass]
+pl_msinieerr2,Planet M*sin(i) Lower Unc. [Earth mass]
+pl_msinielim,Planet M*sin(i) Limit Flag
+pl_bmasse,Planet Mass or M*sin(i) [Earth mass]
+pl_bmasseerr1,Planet Mass or M*sin(i) Upper Unc. [Earth mass]
+pl_bmasseerr2,Planet Mass or M*sin(i) Lower Unc. [Earth mass]
+pl_bmasselim,Planet Mass or M*sin(i) Limit Flag
+pl_rade,Planet Radius [Earth radii]
+pl_radeerr1,Planet Radius Upper Unc. [Earth radii]
+pl_radeerr2,Planet Radius Lower Unc. [Earth radii]
+pl_radelim,Planet Radius Limit Flag
+pl_rads,Planet Radius [Solar radii]
+pl_radserr1,Planet Radius Upper Unc. [Solar radii]
+pl_radserr2,Planet Radius Lower Unc. [Solar radii]
+pl_radslim,Planet Radius Limit Flag
+pl_trandep,Transit Depth [percent]
+pl_trandeperr1,Transit Depth Upper Unc. [percent]
+pl_trandeperr2,Transit Depth Lower Unc. [percent]
+pl_trandeplim,Transit Depth Limit Flag
+pl_trandur,Transit Duration [days]
+pl_trandurerr1,Transit Duration Upper Unc. [days]
+pl_trandurerr2,Transit Duration Lower Unc. [days]
+pl_trandurlim,Transit Duration Limit Flag
+pl_tranmid,Transit Midpoint [days]
+pl_tranmiderr1,Transit Midpoint Upper Unc. [days]
+pl_tranmiderr2,Transit Midpoint Lower Unc. [days]
+pl_tranmidlim,Transit Midpoint Limit Flag
+pl_tsystemref,Time System Reference
+pl_imppar,Impact Parameter
+pl_impparerr1,Impact Parameter Upper Unc.
+pl_impparerr2,Impact Parameter Lower Unc.
+pl_impparlim,Impact Parameter Limit Flag
+pl_occdep,Occultation Depth [percentage]
+pl_occdeperr1,Occultation Depth Upper Unc. [percentage]
+pl_occdeperr2,Occultation Depth Lower Unc. [percentage]
+pl_occdeplim,Occultation Depth Limit Flag
+pl_ratdor,Ratio of Distance to Stellar Radius
+pl_ratdorerr1,Ratio of Distance to Stellar Radius Upper Unc.
+pl_ratdorerr2,Ratio of Distance to Stellar Radius Lower Unc.
+pl_ratdorlim,Ratio of Distance to Stellar Radius Limit Flag
+pl_ratror,Ratio of Planet to Stellar Radius
+pl_ratrorerr1,Ratio of Planet to Stellar Radius Upper Unc.
+pl_ratrorerr2,Ratio of Planet to Stellar Radius Lower Unc.
+pl_ratrorlim,Ratio of Planet to Stellar Radius Limit Flag
+pl_def_reflink,Default Reference
+pl_disc,Year of Discovery
+pl_disc_reflink,Discovery Reference
+pl_locale,Discovery Locale
+pl_facility,Discovery Facility
+pl_telescope,Discovery Telescope
+pl_instrument,Discovery Instrument
+pl_status,Status
+pl_mnum,Number of Moons in System
+pl_st_npar,Number of Stellar and Planet Parameters
+pl_st_nref,Number of Stellar and Planet References
+pl_pelink,Link to Exoplanet Encyclopaedia
+pl_edelink,Link to Exoplanet Data Explorer
+pl_publ_date,Publication Date
+hd_name,HD Name
+hip_name,HIP Name
+st_rah,RA [hrs]
+st_glon,Galactic Longitude [deg]
+st_glat,Galactic Latitude [deg]
+st_elon,Ecliptic Longitude [deg]
+st_elat,Ecliptic Latitude [deg]
+st_plx,Parallax [mas]
+st_plxerr1,Parallax Upper Unc. [mas]
+st_plxerr2,Parallax Lower Unc. [mas]
+st_plxlim,Parallax Limit Flag
+gaia_plx,Gaia Parallax [mas]
+gaia_plxerr1,Gaia Parallax Upper Unc. [mas]
+gaia_plxerr2,Gaia Parallax Lower Unc. [mas]
+gaia_plxlim,Gaia Parallax Limit Flag
+gaia_dist,Gaia Distance [pc]
+gaia_disterr1,Gaia Distance Upper Unc. [pc]
+gaia_disterr2,Gaia Distance Lower Unc. [pc]
+gaia_distlim,Gaia Distance Limit Flag
+st_pmra,Proper Motion (RA) [mas/yr]
+st_pmraerr,Proper Motion (RA) Unc. [mas/yr]
+st_pmralim,Proper Motion (RA) Limit Flag
+st_pmdec,Proper Motion (Dec) [mas/yr]
+st_pmdecerr,Proper Motion (Dec) Unc. [mas/yr]
+st_pmdeclim,Proper Motion (Dec) Limit Flag
+st_pm,Total Proper Motion [mas/yr]
+st_pmerr,Total Proper Motion Unc. [mas/yr]
+st_pmlim,Total Proper Motion Limit Flag
+gaia_pmra,Gaia Proper Motion (RA) [mas/yr]
+gaia_pmraerr,Gaia Proper Motion (RA) Unc. [mas/yr]
+gaia_pmralim,Gaia Proper Motion (RA) Limit Flag
+gaia_pmdec,Gaia Proper Motion (Dec) [mas/yr]
+gaia_pmdecerr,Gaia Proper Motion (Dec) Unc. [mas/yr]
+gaia_pmdeclim,Gaia Proper Motion (Dec) Limit Flag
+gaia_pm,Gaia Total Proper Motion [mas/yr]
+gaia_pmerr,Gaia Total Proper Motion Unc. [mas/yr]
+gaia_pmlim,Gaia Total Proper Motion Limit Flag
+st_radv,Radial Velocity [km/s]
+st_radverr1,Radial Velocity Upper Unc. [km/s]
+st_radverr2,Radial Velocity Lower Unc. [km/s]
+st_radvlim,Radial Velocity Limit Flag
+st_sp,Spectral Type
+st_spstr,Spectral Type
+st_sperr,Spectral Type Unc.
+st_splim,Spectral Type Limit Flag
+st_logg,Stellar Surface Gravity [log10(cm/s**2)]
+st_loggerr1,Stellar Surface Gravity Upper Unc. [log10(cm/s**2)]
+st_loggerr2,Stellar Surface Gravity Lower Unc. [log10(cm/s**2)]
+st_logglim,Stellar Surface Gravity Limit Flag
+st_lum,Stellar Luminosity [log(Solar)]
+st_lumerr1,Stellar Luminosity Upper Unc. [log(Solar)]
+st_lumerr2,Stellar Luminosity Lower Unc. [log(Solar)]
+st_lumlim,Stellar Luminosity Limit Flag
+st_dens,Stellar Density [g/cm**3]
+st_denserr1,Stellar Density Upper Unc. [g/cm**3]
+st_denserr2,Stellar Density Lower Unc. [g/cm**3]
+st_denslim,Stellar Density Limit Flag
+st_metfe,Stellar Metallicity [dex]
+st_metfeerr1,Stellar Metallicity Upper Unc. [dex]
+st_metfeerr2,Stellar Metallicity Lower Unc. [dex]
+st_metfelim,Stellar Metallicity Limit Flag
+st_metratio,Metallicity Ratio
+st_age,Stellar Age [Gyr]
+st_ageerr1,Stellar Age Upper Unc. [Gyr]
+st_ageerr2,Stellar Age Lower Unc. [Gyr]
+st_agelim,Stellar Age Limit Flag
+st_vsini,Rot. Velocity V*sin(i) [km/s]
+st_vsinierr1,Rot. Velocity V*sin(i) Upper Unc. [km/s]
+st_vsinierr2,Rot. Velocity V*sin(i) Lower Unc. [km/s]
+st_vsinilim,Rot. Velocity V*sin(i) Limit Flag
+st_acts,Stellar Activity S-index
+st_actserr,Stellar Activity S-index Unc.
+st_actslim,Stellar Activity S-index Limit Flag
+st_actr,Stellar Activity log(R'HK)
+st_actrerr,Stellar Activity log(R'HK) Unc.
+st_actrlim,Stellar Activity log(R'HK) Limit Flag
+st_actlx,X-ray Activity log(L<sub>x</sub>)
+st_actlxerr,X-ray Activity log(L<sub>x</sub>) Unc.
+st_actlxlim,X-ray Activity log(L<sub>x</sub>) Limit Flag
+swasp_id,SWASP Identifier
+st_nts,Number of Time Series
+st_nplc,Number of Planet Transit Light Curves
+st_nglc,Number of General Light Curves
+st_nrvc,Number of Radial Velocity Time Series
+st_naxa,Number of Amateur Light Curves
+st_nimg,Number of Images
+st_nspec,Number of Spectra
+st_uj,U-band (Johnson) [mag]
+st_ujerr,U-band (Johnson) Unc. [mag]
+st_ujlim,U-band (Johnson) Limit Flag
+st_vj,V-band (Johnson) [mag]
+st_vjerr,V-band (Johnson) Unc. [mag]
+st_vjlim,V-band (Johnson) Limit Flag
+st_bj,B-band (Johnson) [mag]
+st_bjerr,B-band (Johnson) Unc. [mag]
+st_bjlim,B-band (Johnson) Limit Flag
+st_rc,R-band (Cousins) [mag]
+st_rcerr,R-band (Cousins) Unc. [mag]
+st_rclim,R-band (Cousins) Limit Flag
+st_ic,I-band (Cousins) [mag]
+st_icerr,I-band (Cousins) Unc. [mag]
+st_iclim,I-band (Cousins) Limit Flag
+st_j,J-band (2MASS) [mag]
+st_jerr,J-band (2MASS) Unc. [mag]
+st_jlim,J-band (2MASS) Limit Flag
+st_h,H-band (2MASS) [mag]
+st_herr,H-band (2MASS) Unc. [mag]
+st_hlim,H-band (2MASS) Limit Flag
+st_k,Ks-band (2MASS) [mag]
+st_kerr,Ks-band (2MASS) Unc. [mag]
+st_klim,Ks-band (2MASS) Limit Flag
+st_wise1,WISE 3.4um [mag]
+st_wise1err,WISE 3.4um Unc. [mag]
+st_wise1lim,WISE 3.4um Limit Flag
+st_wise2,WISE 4.6um [mag]
+st_wise2err,WISE 4.6um Unc. [mag]
+st_wise2lim,WISE 4.6um Limit Flag
+st_wise3,WISE 12.um [mag]
+st_wise3err,WISE 12.um Unc. [mag]
+st_wise3lim,WISE 12.um Limit Flag
+st_wise4,WISE 22.um [mag]
+st_wise4err,WISE 22.um Unc. [mag]
+st_wise4lim,WISE 22.um Limit Flag
+st_irac1,IRAC 3.6um [mag]
+st_irac1err,IRAC 3.6um Unc. [mag]
+st_irac1lim,IRAC 3.6um Limit Flag
+st_irac2,IRAC 4.5um [mag]
+st_irac2err,IRAC 4.5um Unc. [mag]
+st_irac2lim,IRAC 4.5um Limit Flag
+st_irac3,IRAC 5.8um [mag]
+st_irac3err,IRAC 5.8um Unc. [mag]
+st_irac3lim,IRAC 5.8um Limit Flag
+st_irac4,IRAC 8.0um [mag]
+st_irac4err,IRAC 8.0um Unc. [mag]
+st_irac4lim,IRAC 8.0um Limit Flag
+st_mips1,MIPS 24um [mag]
+st_mips1err,MIPS 24um Unc. [mag]
+st_mips1lim,MIPS 24um Limit Flag
+st_mips2,MIPS 70um [mag]
+st_mips2err,MIPS 70um Unc. [mag]
+st_mips2lim,MIPS 70um Limit Flag
+st_mips3,MIPS 160um [mag]
+st_mips3err,MIPS 160um Unc. [mag]
+st_mips3lim,MIPS 160um Limit Flag
+st_iras1,IRAS 12um Flux [Jy]
+st_iras1err,IRAS 12um Flux Unc. [Jy]
+st_iras1lim,IRAS 12um Flux Limit Flag
+st_iras2,IRAS 25um Flux [Jy]
+st_iras2err,IRAS 25um Flux Unc. [Jy]
+st_iras2lim,IRAS 25um Flux Limit Flag
+st_iras3,IRAS 60um Flux [Jy]
+st_iras3err,IRAS 60um Flux Unc. [Jy]
+st_iras3lim,IRAS 60um Flux Limit Flag
+st_iras4,IRAS 100um Flux [Jy]
+st_iras4err,IRAS 100um Flux Unc. [Jy]
+st_iras4lim,IRAS 100um Flux Limit Flag
+st_photn,Number of Photometry Measurements
+st_umbj,U-B (Johnson) [mag]
+st_umbjerr,U-B (Johnson) Unc. [mag]
+st_umbjlim,U-B (Johnson) Limit Flag
+st_bmvj,B-V (Johnson) [mag]
+st_bmvjerr,B-V (Johnson) Unc. [mag]
+st_bmvjlim,B-V (Johnson) Limit Flag
+st_vjmic,V-I (Johnson-Cousins) [mag]
+st_vjmicerr,V-I (Johnson-Cousins) Unc. [mag]
+st_vjmiclim,V-I (Johnson-Cousins) Limit Flag
+st_vjmrc,V-R (Johnson-Cousins) [mag]
+st_vjmrcerr,V-R (Johnson-Cousins) Unc. [mag]
+st_vjmrclim,V-R (Johnson-Cousins) Limit Flag
+st_jmh2,J-H (2MASS) [mag]
+st_jmh2err,J-H (2MASS) Unc. [mag]
+st_jmh2lim,J-H (2MASS) Limit Flag
+st_hmk2,H-Ks (2MASS) [mag]
+st_hmk2err,H-Ks (2MASS) Unc. [mag]
+st_hmk2lim,H-Ks (2MASS) Limit Flag
+st_jmk2,J-Ks (2MASS) [mag]
+st_jmk2err,J-Ks (2MASS) Unc. [mag]
+st_jmk2lim,J-Ks (2MASS) Limit Flag
+st_bmy,b-y (Stromgren) [mag]
+st_bmyerr,b-y (Stromgren) Unc. [mag]
+st_bmylim,b-y (Stromgren) Limit Flag
+st_m1,m1 (Stromgren) [mag]
+st_m1err,m1 (Stromgren) Unc. [mag]
+st_m1lim,m1 (Stromgren) Limit Flag
+st_c1,c1 (Stromgren) [mag]
+st_c1err,c1 (Stromgren) Unc. [mag]
+st_c1lim,c1 (Stromgren) Limit Flag
+st_colorn,Number of Color Measurements
