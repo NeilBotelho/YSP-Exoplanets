@@ -102,7 +102,7 @@ MinLen=500
 numTests=0
 numCols=len(exos.columns)
 
-while numTests<20000:
+while numTests<10000:
 	features=list(exos.columns)
 	features.remove('rowid')
 	features.remove('habitable')

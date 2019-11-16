@@ -1,18 +1,27 @@
 import pandas as pd
 import numpy as np
-AllCombos=pd.read_csv("../40Missing.csv")
-AllCombos['index']=AllCombos.index
-mini=pd.read_csv("../scoring2.csv")
-mini=pd.DataFrame(mini)
-mini['index']=mini.index
-q=mini.merge(AllCombos,on='index')
-q['score']=q["score_x"]
-q=q.drop(["score_y","score_x","index"],axis=1)
-q["score"]=q.score.apply(lambda x: x*100)
-q=q.dropna()
-q=q.sort_values(by="score",ascending=False)
-q.head(10)
-top=q.head(2000)
+
+randFeatGroups=pd.read_csv("../randomFeatureGroupings.csv")
+randFeatGroups['index']=randFeatGroups.index
+
+scoresOnly=pd.read_csv("../Scores.csv")
+scoresOnly=pd.DataFrame(scoresOnly)
+scoresOnly
+scoresOnly['index']=scoresOnly.index
+
+merged=scoresOnly.merge(randFeatGroups,on='index')
+
+merged=merged.dropna()
+#Sort the data by the score with the highest values at the top
+merged=merged.sort_values(by="score",ascending=False)
+merged.head(10)
+
+
+
+
+#Get the top 2000 scoring feature groups
+top=merged.head(2000)
+
 freq={}
 def addToFreq(entry):
     global freq
